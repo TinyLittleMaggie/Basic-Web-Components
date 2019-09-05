@@ -1,0 +1,13 @@
+/* Google Font: Montserrat */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,500,800&display=swap");
+
+/* Individual Components */
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/dropdown.css");
+
+/* Overall Styling */
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #303030;
+}
