@@ -1,5 +1,5 @@
 /* Google Font: Montserrat */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,500,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,800&display=swap");
 
 /* Individual Components */
 @import url("components/avatar.css");
@@ -10,7 +10,8 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	color: #303030;
-	margin: 70px 0;
+	margin-top: 70px;
+	margin-bottom: 300px;
 }
 h1, h2 {
 	margin-bottom: 1rem;
