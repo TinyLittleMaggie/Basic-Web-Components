@@ -1,0 +1,31 @@
+.btn-grey {
+	border: 2px solid #AEAEAE;
+	border-radius: 50px;
+	padding: 10px 20px;
+	color: #AEAEAE;
+	font-weight: 500;
+	font-size: 1.2rem;
+	opacity: 0.7;
+	margin: 20px 10px;
+	display: inline-block;
+}
+.btn-grey:hover {
+	text-decoration: none;
+	color: #AEAEAE;
+	opacity: 1;
+}
+.btn-red {
+	border-radius: 5px;
+	padding: 10px 20px;
+	color: #FFF;
+	background-color: #D92E47;
+	font-weight: 500;
+	font-size: 1.2rem;
+	margin: 20px 10px;
+	display: inline-block;
+}
+.btn-red:hover {
+	text-decoration: none;
+	background-color: #C92A41;
+	color: #FFF;
+}
