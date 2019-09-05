@@ -1,3 +1,8 @@
+.btn-dropdown:hover {
+	cursor: pointer;
+	box-shadow: 0 0 0 3px #AEAEAE;
+	box-sizing: content-box;
+}
 .dropdown-menu {
 	margin: 15px 0;
 }
