@@ -1,12 +1,12 @@
 .btn-dropdown:hover {
 	cursor: pointer;
-	box-shadow: 0 0 0 3px #AEAEAE;
+	box-shadow: 0 0 0 3px rgba(142, 120, 201, 0.4);
 	box-sizing: content-box;
 }
 .dropdown-menu {
 	margin: 15px 0;
 }
 .dropdown-menu a {
-	color: #AEAEAE;
+	color: #999999;
 	font-weight: 400;
 }
