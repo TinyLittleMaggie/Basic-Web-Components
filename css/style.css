@@ -5,17 +5,18 @@
 @import url("components/avatar.css");
 @import url("components/button.css");
 @import url("components/dropdown.css");
+@import url("components/card.css");
 
 /* Overall Styling */
 body {
 	font-family: 'Montserrat', sans-serif;
 	color: #303030;
 	margin-top: 70px;
-	margin-bottom: 300px;
+	margin-bottom: 70px;
 }
 h1, h2 {
-	margin-bottom: 1rem;
-	margin-top: 1rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
 }
 hr {
 	margin-bottom: 2rem;
