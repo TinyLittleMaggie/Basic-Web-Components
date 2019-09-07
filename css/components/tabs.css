@@ -3,6 +3,7 @@
   display: flex;
   padding: 10px 10px 0 10px;
 }
+
 .tabs-item {
   flex: 1 0 auto;
   text-align: center;
@@ -10,31 +11,40 @@
   padding-top: 12px;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 .tabs-item:hover {
   cursor: pointer;
+  background-color: #DB5A6D;
 }
+
 .tabs h3 {
   color: #FFF;
   font-size: 1.2rem;
   margin-bottom: 3px;
 }
+
 .tabs p {
   color: #FFF;
   opacity: 0.6;
   font-size: 0.9rem;
 }
+
 .tabs-item:first-child {
   border-radius: 10px 0 0 0;
 }
+
 .tabs-item:last-child {
   border-radius: 0 10px 0 0;
 }
+
 .tabs-item.active {
   background-color: #FFF;
 }
+
 .tabs-item.active h3 {
   color: #C92A41;
 }
+
 .tabs-item.active p {
   color: #C92A41;
 }
