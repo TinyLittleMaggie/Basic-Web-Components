@@ -1,0 +1,39 @@
+.h-card {
+  background-color: #ECECEC;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.h-card .upvotes {
+  margin-right: 20px;
+  text-align: center;
+}
+.h-card img {
+  width: 160px;
+  border-radius: 8px;
+}
+.h-card p {
+  margin-bottom: 0;
+}
+.list-inline {
+  margin: 0;
+}
+.list-inline li {
+  display: inline-block;
+  width: 30px;
+  line-height: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  text-align: center;
+  color: #ABABAB;
+  margin: 0 2px;
+}
+.list-inline li:hover {
+  background-color: #FFF;
+  cursor: pointer;
+}
+.h-card .description {
+  flex: 1 0 auto;
+  margin: 0 20px;
+}
