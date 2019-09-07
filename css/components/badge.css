@@ -1,0 +1,11 @@
+.badge {
+  background-color: #D92E47;
+  color: #FFF;
+  min-width: 20px;
+  height: 20px;
+  padding-top: 4px;
+  border-radius: 20px;
+  position: relative;
+  top: -18px;
+  right: 26px;
+}
