@@ -36,4 +36,35 @@
 .h-card .description {
   flex: 1 0 auto;
   margin: 0 20px;
+  max-width: 300px;
+}
+
+/* Media Query */
+@media (max-width: 760px) {
+  .h-card {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+  }
+  .h-card .list-inline {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+  }
+  .h-card .upvotes {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    margin-right: 5px;
+  }
+  .h-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .h-card .description {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 97%;
+  }
 }
