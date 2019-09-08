@@ -10,3 +10,6 @@
 	color: #999999;
 	font-weight: 400;
 }
+.dropdown-menu a:hover {
+	font-weight: 500;
+}
