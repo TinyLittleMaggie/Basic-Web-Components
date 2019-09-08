@@ -1,7 +1,8 @@
 .h-card {
-  background-color: #ECECEC;
+  background-color: #F6F6F6;
   padding: 20px;
   border-radius: 10px;
+  border: 1px solid #EAEAEA;
   display: flex;
   align-items: center;
 }
@@ -30,7 +31,8 @@
   margin: 0 2px;
 }
 .list-inline li:hover {
-  background-color: #FFF;
+  background-color: rgba(201, 42, 65, 0.2);
+  color: #C92A41;
   cursor: pointer;
 }
 .h-card .description {
